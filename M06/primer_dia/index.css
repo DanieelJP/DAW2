@@ -1,0 +1,164 @@
+/* Estilos generales */
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    background-color: #f3f3f3;
+    margin: 0;
+    padding: 0;
+    color: #2c3e50;
+    text-align: center;
+}
+
+/* Encabezados */
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Encabezado principal */
+h1 {
+    color: #e74c3c;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 3rem;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+    animation: slideIn 1s ease-out;
+}
+
+@keyframes slideIn {
+    0% {
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+h2 {
+    color: #555;
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+h3 {
+    color: #2980b9;
+    margin-top: 30px;
+    font-size: 1.8rem;
+}
+
+/* Párrafo */
+p {
+    color: #34495e;
+    font-size: 18px;
+    line-height: 1.8;
+    padding: 0 20px;
+    text-align: justify;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Sección de la imagen */
+.principal-image {
+    text-align: center;
+    margin: 30px auto;
+}
+
+.principal-image img {
+    max-width: 80%;
+    height: auto;
+    border: 5px solid #ecf0f1;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    transition: transform 0.4s ease;
+}
+
+.principal-image img:hover {
+    transform: scale(1.05);
+}
+
+/* Lista */
+ul#lista {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+ul#lista li {
+    background-color: #ecf0f1;
+    color: #2980b9;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+ul#lista li:hover {
+    background-color: #3498db;
+    color: #fff;
+}
+
+/* Tabla */
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 80%;
+}
+
+table th, table td {
+    padding: 15px;
+    text-align: center;
+    border: 2px solid #34495e;
+    background-color: #ecf0f1;
+    color: #2c3e50;
+    font-size: 1.2rem;
+}
+
+table th {
+    background-color: #2980b9;
+    color: #fff;
+}
+
+table td input[type="radio"] {
+    transform: scale(1.5);
+    accent-color: #e74c3c;
+}
+
+/* Botón "Enviar" */
+input[type="submit"] {
+    display: block;
+    background-color: #27ae60;
+    color: white;
+    font-size: 18px;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 200px;
+}
+
+input[type="submit"]:hover {
+    background-color: #2ecc71;
+    transform: translateY(-3px);
+}
+
+/* Botones generales */
+button {
+    display: block;
+    background-color: #e74c3c;
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5
+}
