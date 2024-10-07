@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Tía Turbina</title>
+   <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <h1 id="titulo">Tía Turbina</h1>
+    <h2></h2>
+    <p>Tía turbina. es un personaje recurrente en la película de robots. de 2005. Tía turbina tiene un gran... un gran corazón... Esta robot ayuda a otros robots que están en la ruina, abriéndole las puertas de su hogar. y ayudando a quien más lo necesita. Mi crush.</p>
+    <section>
+        <div class="principal-image">
+            <img src="https://avatars.akamai.steamstatic.com/af653aab59d66cd9f6da3bfbfa268098ad88fa4d_full.jpg" alt="Turbina">
+        </div>
+    </section>
+    <h3>¿Qué os gusta de Tía Turbina?</h3>
+<ul id="lista">
+  <li>¿Su personalidad?</li>
+  <li>¿Sus ojos?</li>
+  <li>¿Su sonrisa?</li>
+</ul>
+<h3>Escoge una opción</h3>
+<form>
+  <table id="tabla">
+    <thead>
+      <tr>
+        <th>Su personalidad</th>
+        <th>Sus ojos</th>
+        <th>Su sonrisa</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><input type="radio" name="pregunta1" value="opcion1"></td>
+        <td><input type="radio" name="pregunta1" value="opcion2"></td>
+        <td><input type="radio" name="pregunta1" value="opcion3"></td>
+      </tr>
+
+    </tbody>
+  </table>
+  <br>
+  <br>
+</body>
+<button type="button" onclick="CambiarTitulo()">Factores</button>
+<button type="button" onclick="addtoList()">Revelar la verdad</button>
+
+<label for="textoUser">Añadir opción personalizada</label>
+<input type="text" id="textoUser" name="textoUser">
+<button type="button" onclick="inputList()">Añadir a la lista</button><br>
+<button type="button" onclick="inputTable()">Añadir a la tabla</button><br>
+
+<label for="borrarLista">Borrar opción:</label>
+<input type="number" id="borrarLista" name="borrarLista">
+<button type="button" onclick="deleteFromList()">Borrar opción</button>
+  <br>
+  <input type="submit" value="Enviar formulario">
+  <br>
+<script src="built/index.js"></script>
+</html>
