@@ -1,0 +1,58 @@
+body {
+    width: 100wh;
+    height: 100vh;
+    margin: 0;
+    background-color: black;
+}
+
+.grid-tocho {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.botones {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.red {
+    background-color:#f44336ed;
+    border-color: black;
+}
+.yellow {
+    background-color:#ffeb3b;
+    border-color: black;
+}
+
+.green{
+    background-color:#4caf50;
+    border-color: black;
+}
+
+.blue{
+    background-color:#2196f3;
+    border-color: black;
+}
+
+.cuadro{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cuadrado{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: ;
+    border-radius: 15px;
+    padding: 30px;
+    width: 500px;
+    height: 500px;
+}
