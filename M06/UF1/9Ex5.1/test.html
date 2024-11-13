@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+ 
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <title>Programació amb galetes</title>
+  <script src="./dist/fitxerExtern.js"></script> 
+  <script>
+  </script>
+</head>
+ 
+<body onload="carregarCookies()">
+  <h1 id="header">Text en català</h1>
+  <p id="paragraph">Per veure els canvis, actualitzar la pàgina. (Original)<br /></p>
+  <button onclick="document.cookie ='idioma = catala; expires=30 Dec 2003'">Català</button>
+  <button onclick="document.cookie ='idioma = castella; expires=31 Dec 2025';">Castellà</button>
+  <button onclick="document.cookie ='idioma = angles';">Anglès</button><br />
+  <button onclick="document.cookie ='fondo = red';">Vermell</button>
+  <button onclick="document.cookie ='fondo = blue; expires=31 Dec 2025'">Blau</button>
+  <button onclick="document.cookie ='fondo = green';">Verd</button>
+</body>
+<script src="built/index.js"></script>
+</html>
